@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
         color: "#0F172A",
         padding: 0,
         margin: 0,
-        border: 0,
         width: 250,
         justifyContent: 'flex-start',
     },

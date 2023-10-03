@@ -1,6 +1,6 @@
 import React from 'react';
 import { DrawerContentScrollView } from '@react-navigation/drawer';
-import { StyleSheet, Text, Image, View } from 'react-native';
+import { StyleSheet, Image, View } from 'react-native';
 import ConfigElement from '../assets/components/configElement';
 import LargeButton from '../assets/components/largeButton';
 import Titulo from '../assets/components/titulo';
