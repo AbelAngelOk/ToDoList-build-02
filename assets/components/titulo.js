@@ -1,9 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text } from 'react-native';
 
-const Titulo = ({ children }) => {
+const Titulo = ({ textPosition, children }) => {
+
+    const textPositionDefault = "left";
+
     return(
-        <Text style= { styles.tituloSeccion } > { children } </Text>
+        <Text style= {[ styles.tituloSeccion, { textAlign: textPosition || textPositionDefault } ]} > { children } </Text>
     )
 }
 
@@ -16,7 +19,6 @@ const styles = StyleSheet.create({
         color: "#0F172A",
         padding: 0,
         margin: 0,
-        width: 250,
-        justifyContent: 'flex-start',
+        width: "100%",
     },
 })
